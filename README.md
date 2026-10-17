@@ -29,8 +29,7 @@ It is a beta and not signed yet, so your computer will ask you to confirm it onc
    - If it says the GPS plugin was installed, you are set.
    - If it asks you to quit X-Plane and open Approach Coach again, do that. The plugin can only be installed while X-Plane is closed.
    - If it cannot find X-Plane, it offers a box: type or paste X-Plane's folder there.
-2. **No Approach Coach in X-Plane's Plugins menu?** That is normal: the plugin adds no menu. It is listed under Plugins, Plugin Admin, Enable/Disable as "Approach Coach GPS".
-2. Start X-Plane. The first time, open Approach Coach before X-Plane so the plugin can be installed; after that, any order works.
+2. Start X-Plane. The first time, open Approach Coach before X-Plane so the plugin can be installed; after that, any order works. The plugin adds no item to X-Plane's Plugins menu; that is normal. It is listed under Plugins, Plugin Admin, Enable/Disable as "Approach Coach GPS".
 3. **Phone or tablet:** on the same Wi-Fi, type the **https** address shown at the top of the page ("Phone/iPad: https://...:8443") into the phone's browser. Not `localhost`: on a phone that means the phone itself. The browser warns once that the connection is not private; accept it (Safari: Show Details, then visit this website, then Visit Website). If the page stays blank after that, refresh it once. That address keeps the screen on while you fly.
    On version 0.1.0 the address is not on the page: on a Mac find it in System Settings, Wi-Fi, Details, TCP/IP (IP address); on Windows in Settings, Network, your Wi-Fi, IPv4 address. Then type `https://` + that address + `:8443`.
 4. **Something wrong?** Send Jim the log file. Hover the version number at the top of the page to see where it is. On a Mac it is `~/.approach-coach/logs/coach.log`; on Windows it is `%USERPROFILE%\.approach-coach\logs\coach.log`.
